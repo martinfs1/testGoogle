@@ -1,0 +1,9 @@
+.header {
+    text-align: right;
+}
+.photo {
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    margin: 1px, 2px,0px,2px;
+}
