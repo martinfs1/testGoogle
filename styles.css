@@ -1,10 +1,118 @@
-.header {
-    text-align: right;
+body {
+    font-family: Roboto, Helvetica, Neue, Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.photo {
-    border-radius: 50%;
-    height: 32px;
-    width: 32px;
-    margin: 1px, 2px, 0px, 2px;
+footer {
+    background-color: #bdc1c6;
+}
+
+hr {
+    color:gray;
+}
+
+
+@media only screen and (max-width: 320px) {
+
+    /* here begin styles of header */
+    body {
+        height: 550px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .anchorHeader {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .imagesHeader {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .photo {
+        border-radius: 50%;
+        height: 32px;
+        width: 32px;
+    }
+
+    .hamb {
+        width: 24px;
+        height: 24px;
+    }
+
+    /* here finalize styles of header  */
+
+    /* here begin styles of main */
+    .central {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .centralDown {
+        display: flex;
+        justify-content: center;
+    }
+
+    .imgLogo {
+        width: 160px;
+        height: 56px;
+    }
+
+    .searchSymbol {
+        height: 24px
+    }
+
+    .mic {
+        height: 24px;
+    }
+
+    .searchBar {
+        display: flex;
+        border-radius: 20px;
+        width: 250px;
+        height: 30px;
+        border: 1px solid #dadce0;
+
+    }
+
+    .language {
+        line-height: 28px;
+        font-size: small;
+        text-align: center;
+    }
+
+    /* here finalize styles of main  */
+
+    /* here finalize styles of footer  */
+    .darkThemeDiv {
+        display: flex;
+        justify-content: space-around;
+    }
+    .AdvDiv{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    footer div a {
+        font-size: small;
+        text-decoration: none;
+    }
+
+    /* here finalize styles of footer  */
+
+
+
 }
