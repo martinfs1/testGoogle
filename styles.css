@@ -17,11 +17,11 @@ hr {
 }
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 412px) {
 
     /* here begin styles of header */
     body {
-        height: 550px;
+        height: 633px;
     }
 
     .header {
@@ -43,13 +43,14 @@ hr {
 
     .photo {
         border-radius: 50%;
-        height: 32px;
+        height: auto;
         width: 32px;
     }
 
     .hamb {
+        height: auto;
         width: 24px;
-        height: 24px;
+        
     }
 
     /* here finalize styles of header  */
@@ -68,16 +69,18 @@ hr {
     }
 
     .imgLogo {
-        width: 160px;
-        height: 56px;
+        height: auto;
+        width: 160px;        
     }
 
     .searchSymbol {
-        height: 24px
+        height: auto;
+        width: 24px;
     }
 
     .mic {
-        height: 24px;
+        height: auto;
+        width: 24px;
     }
 
     .searchBar {
