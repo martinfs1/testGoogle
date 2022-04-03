@@ -12,8 +12,7 @@ footer {
         height: 100vh;
         margin: 0;
         display: flex;
-        flex-direction: column; 
-        justify-content: space-between;
+        flex-direction: column;         
         color: #70757a;              
     }  
     /* here begin styles of header */  
@@ -31,13 +30,14 @@ footer {
     }
     .leftSideHeader, a {
         padding-top: 3px;
+        font-size:small;
+        text-decoration: none;
     }
 
     .rightSideHeader {
         display: flex;
         justify-content: space-between;
-        gap: 20px;
-        
+        gap: 20px;        
     }
 
     .photo {
@@ -55,18 +55,22 @@ footer {
 
     /* here begin styles of main */
     .central {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;    
-        padding-top:30px 
-        
+        flex: 1;
+        display: flex;        
+        justify-content: center;               
     }
 
-    .centralDown {
+    .imgLogo {
+        height: 56px;
+        width: 160px; 
+        padding-top:20px       
+    }
+
+    .centralDown, .centralUp{
         display: flex;
-        justify-content: center;
+        flex-direction: column;        
+        margin:30px 0;
         align-items: center;
-        margin:20px 0;
     }
 
     .searchBar {    
@@ -78,36 +82,29 @@ footer {
         height: auto;     
         width: 85vw;               
         padding: 10px 15px;
-    }
-
-    .imgLogo {
+    }  
+    
+    .searchSymbol {
         height: auto;
-        width: 160px;        
+        width: 18px;             
     }
 
     input{
         margin: 0;
         padding: 0;
         border-style: none;
-    }
-
-    .searchSymbol {
-        height: auto;
-        width: 18px;             
-    }
+    }   
 
     .mic {
         height: 20px;
-        width: 15px;        
-              
+        width: 15px;                      
     }   
 
     .setLanguage {
         line-height: 28px;
         font-size: small;
         text-align: center;
-        color: #3c4043;
-        
+        color: #3c4043;        
     }
 
     .lang {        
@@ -121,8 +118,7 @@ footer {
 
     footer{
         display: flex;
-        flex-direction: column;
-        margin-top: 150px;
+        flex-direction: column;                
     }
 
     .country{
@@ -139,7 +135,8 @@ footer {
         display: flex;
         justify-content: center;
         gap: 30px;
-        margin: 20px 0;
+        margin: 10px 0;
+        padding-bottom: 5px;
     }
 
     footer div a {
