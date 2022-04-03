@@ -1,56 +1,54 @@
-body {
-    font-family: Roboto, Helvetica, Neue, Arial, sans-serif;
-    height: 100%;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+
 
 footer {
-    background-color: #bdc1c6;
+    background-color: #f2f2f2;
 }
 
-hr {
-    color:gray;
-}
+@media screen and (min-width: 320px) and (max-width: 425px) {
 
-
-@media only screen and (max-width: 412px) {
-
-    /* here begin styles of header */
+     
     body {
-        height: 633px;
-    }
+        font-family: Roboto, Helvetica, Neue, Arial, sans-serif;
+        height: 100vh;
+        margin: 0;
+        display: flex;
+        flex-direction: column; 
+        justify-content: space-between;
+        color: #70757a;              
+    }  
+    /* here begin styles of header */  
 
     .header {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
+        justify-content: space-between;       
+        align-items:flex-start; 
+        margin: 12px;
     }
 
-    .anchorHeader {
+    .leftSideHeader {
         display: flex;
-        justify-content: space-between;
-
+        gap: 20px;          
+    }
+    .leftSideHeader, a {
+        padding-top: 3px;
     }
 
-    .imagesHeader {
+    .rightSideHeader {
         display: flex;
         justify-content: space-between;
+        gap: 20px;
+        
     }
 
     .photo {
         border-radius: 50%;
-        height: auto;
+        height: 32px;
         width: 32px;
     }
 
-    .hamb {
+    .hamb {        
         height: auto;
-        width: 24px;
-        
+        width: 24px;                     
     }
 
     /* here finalize styles of header  */
@@ -59,13 +57,27 @@ hr {
     .central {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        align-content: flex-start;
+        justify-content: center;    
+        padding-top:30px 
+        
     }
 
     .centralDown {
         display: flex;
         justify-content: center;
+        align-items: center;
+        margin:20px 0;
+    }
+
+    .searchBar {    
+        display: flex;
+        justify-content: space-between;         
+        align-items: center;        
+        border: 1px solid #ddd;
+        border-radius: 26px;  
+        height: auto;     
+        width: 85vw;               
+        padding: 10px 15px;
     }
 
     .imgLogo {
@@ -73,49 +85,69 @@ hr {
         width: 160px;        
     }
 
+    input{
+        margin: 0;
+        padding: 0;
+        border-style: none;
+    }
+
     .searchSymbol {
         height: auto;
-        width: 24px;
+        width: 18px;             
     }
 
     .mic {
-        height: auto;
-        width: 24px;
-    }
+        height: 20px;
+        width: 15px;        
+              
+    }   
 
-    .searchBar {
-        display: flex;
-        border-radius: 20px;
-        width: 250px;
-        height: 30px;
-        border: 1px solid #dadce0;
-
-    }
-
-    .language {
+    .setLanguage {
         line-height: 28px;
         font-size: small;
         text-align: center;
+        color: #3c4043;
+        
+    }
+
+    .lang {        
+        color: #1558d6;
+        padding-left: 10px;
     }
 
     /* here finalize styles of main  */
 
     /* here finalize styles of footer  */
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+    }
+
+    .country{
+        padding: 10px;
+        border-bottom: 1px solid lightgray;
+    }
     .darkThemeDiv {
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        gap: 30px;
+        margin: 10px 0;        
     }
-    .AdvDiv{
+    .advDiv{        
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 30px;
+        margin: 20px 0;
     }
+
     footer div a {
         font-size: small;
-        text-decoration: none;
+        text-decoration: none;    
+        color: #70757a;
     }
 
     /* here finalize styles of footer  */
-
-
 
 }

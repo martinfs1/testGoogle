@@ -10,20 +10,18 @@
 </head>
 
 <body>
-    <!-- begins navbar -->
-    <nav>
-        <div class="header">
-            <img class="hamb" src="/img/toogle.svg" alt="only visual" />
-            <div class="anchorsHeader">
+    <!-- begins navbar -->    
+        <div class="header">            
+            <div class="leftSideHeader">
+                <img class="hamb" src="/img/toogle.svg" alt="only visual" />
                 <a class="aGmail" href="https://mail.google.com/mail/?authuser=0&ogbl" target="_top">ALL</a>
                 <a class="aImages" href="https://www.google.com.ar/imghp?hl=en&authuser=0&ogbl" target="_top">IMAGES</a>
             </div>
-            <div class="imagesHeader">
+            <div class="rightSideHeader">
                 <img class="menuApp" src="/img/apps-24px.svg" alt="Menu App" />
                 <img class="photo" src="/img/martin.jpg" alt="Photo User" />
             </div>
-        </div>
-    </nav>
+        </div>    
     <!-- finish navbar -->
 
     <!-- begins main -->
@@ -33,12 +31,15 @@
         </div>
         <div>
             <div class="centralDown">
+                <form class="searchBar">
                 <img class="searchSymbol" src="/img/search-interface-symbol.svg" alt="icono de lupa">
-                <input class="searchBar">
+                <input>
                 <img class="mic" src="/img/mic.png" alt="imagen de microfono">
             </div>
+        </form>
             <div class="divLanguage">
-                <p class="language">Google offered in: Español (Latinoamerica)</p>
+                <p class="setLanguage"><span>Google offered in:</span>
+                     <span class="lang">Español (Latinoamerica)</span></p>
             </div>
         </div>
 
@@ -47,7 +48,7 @@
 
     <!--begins footer-->
     <footer>
-        <div>
+        <div class="country">
             <span>Argentina</span>
         </div>
         <hr class="lastLine">
@@ -57,7 +58,7 @@
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
         </div>
-        <div>
+        <div class="advDiv">
             <a href="#">Advertising</a>
             <a href="#"">Business</a>
             <a href="#"">About</a>
