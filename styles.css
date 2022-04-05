@@ -11,7 +11,7 @@ footer {
     background-color: #f2f2f2;
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 
      
     body {
@@ -164,7 +164,7 @@ footer {
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (min-width: 768px) {
 
    /* here begin styles of header */  
 
